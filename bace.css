@@ -1,0 +1,74 @@
+.taitel-heading{
+	background: #00BBC3;
+	padding: 40px;
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-size: 40px;
+	margin: 0;
+}
+
+h2{
+	font-size: 30px;
+	margin: 0;
+}
+.menu-heading{
+	text-transform: uppercase;
+	margin: 50px 0 25px 0;
+}
+.menu-section{
+	margin-bottom: 120px;
+}
+
+.menu ul{
+	background: #141F3F;
+	margin: 0;
+    padding: 0;
+	list-style-type: none;
+    overflow: hidden;
+
+}
+.menu ul li{
+
+}
+
+.menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: block;
+    text-decoration: none; 
+	
+}
+.menu ul li a:hover{
+    background: #fe320e;
+}
+
+/** Card Based Layout **/
+
+.card img {
+    max-width:  100%;
+    border-bottom: 8px solid #464646;
+}
+
+.card h4, p {
+    padding: 10px 20px;
+}
+
+h4.heading-title {
+    font-size: 30px;
+    font-weight:  600;
+    color:  #433f3f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.card p {
+    line-height:  24px;
+    color:  #433f3f;
+    font-size: 16px;
+}

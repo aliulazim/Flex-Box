@@ -1,0 +1,52 @@
+.taitel-heading{
+	background: #00BBC3;
+	padding: 40px;
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-size: 40px;
+	margin: 0;
+}
+
+/*Using of flexbox */
+
+.flex-container{
+	border: 10px solid skyblue;
+	margin: 50px 0;
+	display: flex;
+	height: 200px;
+}
+
+.flex-item{
+	background: #00BBC3;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	flex-grow: 1;
+}
+.flex-item:nth-child(odd){
+	align-self: flex-end;
+}
+.flex-item:nth-child(even){
+	align-self: center;
+}
+/*.item-1{
+	align-self: flex-end;
+}
+.item-3{
+	align-self: flex-end;
+}
+.item-9{
+	align-self: flex-end;
+}
+.item-5{
+	align-self: center;
+}
+.item-7{
+	align-self: flex-end;
+}*/
